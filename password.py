@@ -7,4 +7,7 @@ while chance > 0:
 		break
 	else:
 		chance -= 1
-		print("wrong !! last", chance, "time!!")
+		if chance == 0:
+			print("try again from begin!")
+		else:
+			print("wrong !! last", chance, "time!!")
